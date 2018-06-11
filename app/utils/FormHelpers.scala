@@ -26,4 +26,8 @@ object FormHelpers {
       case Some(error) => error.message
     }
   }
+
+  def titleWithErrorContext(form: Form[_], baseTitle: String) = {
+    s"${if (form.hasErrors || form.hasGlobalErrors) "Error: " else ""}${baseTitle}"
+  }
 }
