@@ -42,3 +42,42 @@ site.textarea.char_limit = (Limit is {0} characters)
 
 unauthorised.title = You can’t access this service with this account
 unauthorised.heading = You can’t access this service with this account
+
+markPageOne.title = markPageOne
+markPageOne.heading = markPageOne
+markPageOne.checkYourAnswersLabel = markPageOne
+markPageOne.error.required = Enter markPageOne
+markPageOne.error.length = MarkPageOne must be 30 characters or less
+
+markPageFive.title = markPageFive
+markPageFive.heading = markPageFive
+markPageFive.field1 = Field 1
+markPageFive.field2 = Field 2
+markPageFive.checkYourAnswersLabel = markPageFive
+markPageFive.error.field1.required = Enter field1
+markPageFive.error.field2.required = Enter field2
+markPageFive.error.field1.length = field1 must be 67 characters or less
+markPageFive.error.field2.length = field2 must be 12 characters or less
+
+markPageFour.title = markPageFour
+markPageFour.heading = markPageFour
+markPageFour.checkYourAnswersLabel = markPageFour
+markPageFour.error.nonNumeric = Please give an answer for markPageFour using numbers
+markPageFour.error.required = Please give an answer for markPageFour
+markPageFour.error.wholeNumber = Please give an answer for markPageFour using whole numbers
+markPageFour.error.outOfRange = markPageFour must be between {0} and {1}
+
+markPageSix.title = markPageSix
+markPageSix.heading = markPageSix
+
+markPageThree.title = markPageThree
+markPageThree.heading = markPageThree
+markPageThree.option1 = Option 1
+markPageThree.option2 = Option 2
+markPageThree.checkYourAnswersLabel = markPageThree
+markPageThree.error.required = Please give an answer for markPageThree
+
+markPageTwo.title = markPageTwo
+markPageTwo.heading = markPageTwo
+markPageTwo.checkYourAnswersLabel = markPageTwo
+markPageTwo.error.required = Please give an answer for markPageTwo

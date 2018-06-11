@@ -11,3 +11,30 @@ GET        /this-service-has-been-reset                 controllers.SessionExpir
 GET        /check-your-answers                          controllers.CheckYourAnswersController.onPageLoad
 
 GET        /unauthorised                                controllers.UnauthorisedController.onPageLoad
+
+GET        /markPageOne               controllers.MarkPageOneController.onPageLoad(mode: Mode = NormalMode)
+POST       /markPageOne               controllers.MarkPageOneController.onSubmit(mode: Mode = NormalMode)
+GET        /changeMarkPageOne                        controllers.MarkPageOneController.onPageLoad(mode: Mode = CheckMode)
+POST       /changeMarkPageOne                        controllers.MarkPageOneController.onSubmit(mode: Mode = CheckMode)
+
+GET        /markPageFive                       controllers.MarkPageFiveController.onPageLoad(mode: Mode = NormalMode)
+POST       /markPageFive                       controllers.MarkPageFiveController.onSubmit(mode: Mode = NormalMode)
+GET        /changeMarkPageFive                       controllers.MarkPageFiveController.onPageLoad(mode: Mode = CheckMode)
+POST       /changeMarkPageFive                       controllers.MarkPageFiveController.onSubmit(mode: Mode = CheckMode)
+
+GET        /markPageFour               controllers.MarkPageFourController.onPageLoad(mode: Mode = NormalMode)
+POST       /markPageFour               controllers.MarkPageFourController.onSubmit(mode: Mode = NormalMode)
+GET        /changeMarkPageFour                        controllers.MarkPageFourController.onPageLoad(mode: Mode = CheckMode)
+POST       /changeMarkPageFour                        controllers.MarkPageFourController.onSubmit(mode: Mode = CheckMode)
+
+GET        /markPageSix                       controllers.MarkPageSixController.onPageLoad()
+
+GET        /markPageThree               controllers.MarkPageThreeController.onPageLoad(mode: Mode = NormalMode)
+POST       /markPageThree               controllers.MarkPageThreeController.onSubmit(mode: Mode = NormalMode)
+GET        /changeMarkPageThree               controllers.MarkPageThreeController.onPageLoad(mode: Mode = CheckMode)
+POST       /changeMarkPageThree               controllers.MarkPageThreeController.onSubmit(mode: Mode = CheckMode)
+
+GET        /markPageTwo                       controllers.MarkPageTwoController.onPageLoad(mode: Mode = NormalMode)
+POST       /markPageTwo                       controllers.MarkPageTwoController.onSubmit(mode: Mode = NormalMode)
+GET        /changeMarkPageTwo                       controllers.MarkPageTwoController.onPageLoad(mode: Mode = CheckMode)
+POST       /changeMarkPageTwo                       controllers.MarkPageTwoController.onSubmit(mode: Mode = CheckMode)
